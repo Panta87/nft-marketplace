@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+
+  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container-fluid header-content">
+            <img src="assets/images/logo.png" alt="NFT Marketplace Logo" class="logo-img">
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Marketplace</a>
+                    </li>
+                    <li>
+                        <a href="#">Rankings</a>
+                    </li>
+                    <li>
+                        <a href="#">Connect a wallet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="signup-btn">Sign Up</a>
+                    </li>   
+                </ul>
+            </nav>
+
+            <a href="#" class="burger-menu">
+                <img src="assets/images/burger-menu.svg">
+            </a>
+
+            <nav class="mobile-nav">
+                <ul>
+                    <a href="#" class="close-link">x</a>
+                    <li>
+                        <a href="#">Marketplace</a>
+                    </li>
+                    <li>
+                        <a href="#">Rankings</a>
+                    </li>
+                    <li>
+                        <a href="#">Connect a wallet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="signup-btn">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-content">
+            <div class="hero-info">
+                <h1>Discover digital art & Collect NFTs</h1>
+                <p>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+                <button class="hide-mobile">Get Started</button>
+                <div class="additional-info hide-mobile">
+                    <div>
+                        <span>240k+</span>
+                        <span>Total Sale</span>
+                    </div>
+                    <div>
+                        <span>100k+</span>
+                        <span>Auctions</span>
+                    </div>
+                    <div>
+                        <span>240k+</span>
+                        <span>Artists</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-nft">
+                <img src="assets/images/hero-nft.png" alt="Space Walking">
+                <div class="nft-info">
+                    <h3 class="card-title">Space Walking</h3>
+                    <span>Animakid</span>
+                </div>
+            </div>
+            <div class="hero-info show-mobile">
+                <button>Get Started</button>
+                <div class="additional-info">
+                    <div>
+                        <span>240k+</span>
+                        <span>Total Sale</span>
+                    </div>
+                    <div>
+                        <span>100k+</span>
+                        <span>Auctions</span>
+                    </div>
+                    <div>
+                        <span>240k+</span>
+                        <span>Artists</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trending">
+        <div class="container">
+            <div class="section-header">
+                <div class="left-info">
+                    <h2 class="section-title">Trending Collection</h2>
+                    <p class="section-subtitle">Checkout our weekly updated trending collection.</p>
+                </div>
+            </div>
+            
+            <div class="trending-cards">
+                <div class="trending-card">
+                    <img src="assets/images/trending/primary-1.png" alt="" class="main-image">
+                    <div class="sub-images">
+                        <img src="assets/images/trending/secondary-1.1.png" alt="">
+                        <img src="assets/images/trending/secondary-1.2.png" alt="">
+                        <a href="#">1025+</a>
+                    </div>
+                    <h3 class="card-title">DSGN Animals</h3>
+                </div>
+
+                <div class="trending-card hide-mobile">
+                    <img src="assets/images/trending/primary-2.png" alt="" class="main-image">
+                    <div class="sub-images">
+                        <img src="assets/images/trending/secondary-2.1.png" alt="">
+                        <img src="assets/images/trending/secondary-2.2.png" alt="">
+                        <a href="#">1025+</a>
+                    </div>
+                    <h3 class="card-title">DSGN Animals</h3>
+                </div>
+
+                <div class="trending-card">
+                    <img src="assets/images/trending/primary-3.png" alt="" class="main-image">
+                    <div class="sub-images">
+                        <img src="assets/images/trending/secondary-3.1.png" alt="">
+                        <img src="assets/images/trending/secondary-3.2.png" alt="">
+                        <a href="#">1025+</a>
+                    </div>
+                    <h3 class="card-title">DSGN Animals</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="top-creators">
+        <div class="container">
+            <div class="section-header">
+                <div class="left-info">
+                    <h2 class="section-title">Top creators</h2>
+                    <p class="section-subtitle">Checkout Top Rated Creators on the NFT Marketplace</p>
+                </div>
+                <button class="section-header-btn hide-mobile">View Rankings</button>
+            </div>
+
+            <div class="creator-cards">
+                <div class="creator-card">
+                    <img src="assets/images/creators/creator1.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">1</span>
+                </div>
+
+                <div class="creator-card">
+                    <img src="assets/images/creators/creator2.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">2</span>
+                </div>
+
+                <div class="creator-card">
+                    <img src="assets/images/creators/creator3.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">3</span>
+                </div>
+
+                <div class="creator-card">
+                    <img src="assets/images/creators/creator4.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">4</span>
+                </div>
+
+                <div class="creator-card">
+                    <img src="assets/images/creators/creator5.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">5</span>
+                </div>
+
+                <div class="creator-card hide-mobile">
+                    <img src="assets/images/creators/creator6.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">6</span>
+                </div>
+
+                <div class="creator-card hide-small">
+                    <img src="assets/images/creators/creator7.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">7</span>
+                </div>
+
+                <div class="creator-card hide-small">
+                    <img src="assets/images/creators/creator8.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">8</span>
+                </div>
+
+                <div class="creator-card hide-small">
+                    <img src="assets/images/creators/creator9.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">9</span>
+                </div>
+
+                <div class="creator-card hide-small">
+                    <img src="assets/images/creators/creator10.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">10</span>
+                </div>
+
+                <div class="creator-card hide-small">
+                    <img src="assets/images/creators/creator11.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">11</span>
+                </div>
+
+                <div class="creator-card hide-small">
+                    <img src="assets/images/creators/creator12.png" alt="Keepitreal">
+                    <div class="creator-info">
+                        <h3 class="card-title">Keepitreal</h3>
+                        <p>
+                            <span>Total Sales:</span>
+                            34.53 ETH
+                        </p>
+                    </div>
+                    <span class="creator-number">12</span>
+                </div>
+            </div>
+
+            <button class="section-header-btn show-mobile">View Rankings</button>
+        </div>
+    </section>
+
+    <section id="discover">
+        <div class="container">
+            <div class="section-header">
+                <div class="left-info">
+                    <h2 class="section-title">Discover More NFTs</h2>
+                    <p class="section-subtitle">Explore new trending NFTs</p>
+                </div>
+                <button class="section-header-btn hide-mobile">See All</button>
+            </div>
+
+            <div class="discover-cards">
+                <div class="discover-card">
+                    <img src="assets/images/discover-nfts/nft-card1.png" alt="Distant Galaxy">
+                    <div class="discover-info">
+                        <h3 class="card-title">Distant Galaxy</h3>
+                        <div class="price">
+                            <p>Price</p>
+                            1.63 ETH
+                        </div>
+                        <div class="bid">
+                            <p>Highest Bid</p>
+                            0.33 wETH
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discover-card">
+                    <img src="assets/images/discover-nfts/nft-card2.png" alt="Distant Galaxy">
+                    <div class="discover-info">
+                        <h3 class="card-title">Distant Galaxy</h3>
+                        <div class="price">
+                            <p>Price</p>
+                            1.63 ETH
+                        </div>
+                        <div class="bid">
+                            <p>Highest Bid</p>
+                            0.33 wETH
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discover-card">
+                    <img src="assets/images/discover-nfts/nft-card3.png" alt="Distant Galaxy">
+                    <div class="discover-info">
+                        <h3 class="card-title">Distant Galaxy</h3>
+                        <div class="price">
+                            <p>Price</p>
+                            1.63 ETH
+                        </div>
+                        <div class="bid">
+                            <p>Highest Bid</p>
+                            0.33 wETH
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="section-header-btn show-mobile">See All</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="left-content">
+                    <img src="assets/images/logo.png" alt="NFT Marketplace Logo">
+                    <p>NFT marketplace UI created with Anima for Figma.</p>
+                </div>
+
+                <div class="middle-content">
+                    <h4>Explore</h4>
+
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Marketplace</a>
+                            </li>
+                            <li>
+                                <a href="#">Rankings</a>
+                            </li>
+                            <li>
+                                <a href="#">Connect a wallet</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="right-content">
+                    <h4>Join our weekly digest</h4>
+                    <p>Get exclusive promotions & updates straight to your inbox.</p>
+
+                    <form>
+                        <input type="text" placeholder="Enter your email here">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class="bottom-text">Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+    </footer>
+
+    <div id="signupModal">
+        <a href="#" class="modal-close">x</a>
+        <form class="signup-form">
+            <div class="input-wrapper">
+                <input type="text" name="firstname" id="firstNameInput" placeholder="First Name" class="form-input">
+                <p class="firstname-error"></p>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" name="lastname" id="lastNameInput" placeholder="Last Name" class="form-input">
+                <p class="lastname-error"></p>
+            </div>
+            <div id="input-wrapper">
+                <input type="email" name="email" id="emailInput" placeholder="Email" class="form-input">
+                <p class="email-error"></p>
+            </div>
+            <button id="signUpButton">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
