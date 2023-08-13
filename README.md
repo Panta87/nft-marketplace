@@ -15,6 +15,7 @@ Also made Sign up modal.
 
 [Live demo](https://nft-marketplace-panta87.vercel.app/)
 
-## Figma
+## Figma link:
+https://www.figma.com/file/EMfbEzvokDnUARJFrSf1fF/NFT-Marketplace?type=design&node-id=1647%3A23894&mode=design&t=k0dmWFE2Ib9GQIQE-1
 
-[Live demo]([https://nft-marketplace-panta87.vercel.app/](https://www.figma.com/file/EMfbEzvokDnUARJFrSf1fF/NFT-Marketplace?type=design&node-id=1647%3A23894&mode=design&t=k0dmWFE2Ib9GQIQE-1)https://www.figma.com/file/EMfbEzvokDnUARJFrSf1fF/NFT-Marketplace?type=design&node-id=1647%3A23894&mode=design&t=k0dmWFE2Ib9GQIQE-1)
+
